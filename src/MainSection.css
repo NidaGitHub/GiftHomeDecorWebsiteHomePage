@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .Banner-image {
+    width: 100%;
+    margin: 5px;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  .Banner-image2 {
+    margin-top: 90px;
+  }
+  .s {
+    margin-top: 100px;
+  }
+  .swiper {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .swiper-button-next:after
+  {
+    margin-left: 40px;
+    color: black;
+ 
+  } 
+  .swiper-button-prev:after{
+    margin-right: 40px;
+    color: black;
+  
+  }
+  .a{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .b {
+    padding: 5px;
+  }
+  .c {
+    height: 160px;
+    width: 160px;
+    clip-path: circle();
+  }
+  .a-h1{
+    font-family: font-heading-family;
+    margin: 0;
+    font-size: 1.4rem;
+    color: black;
+  }
+  .cards-section {
+    padding-top: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .card_title {
+    font-family: font-heading-family;
+    margin: 0;
+    font-size: 1.4rem;
+    color: var(--color-black);
+  }
+  .card_gift_spell {
+    font-family: font-heading-family;
+    margin: 0;
+    font-size: 1.4rem;
+    color: var(--color-black);
+    font-style: italic;
+  }
+  .view_button {
+    color: white;
+    border-style: none;
+    background-color: #d11f55;
+    width: 90px;
+    height: 40px;
+    margin-right: 3px;
+  }
+  .card_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .Crads-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-content {
+    width: 225px;
+    height: 245px;
+    margin: 5px;
+    align-items: center;
+  }
+  .imgggg {
+    width: 225px;
+    height: 225px;
+  }
+  .card_button {
+    color: white;
+    border-style: none;
+    background-color: #d11f55;
+    width: 225px;
+    height: 30px;
+  }
+  .card_information {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    line-height: 35px;
+    width: 225px;
+    font-family:'Courier New', Courier, monospace;
+  }
